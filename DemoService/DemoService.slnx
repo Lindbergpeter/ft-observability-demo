@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DemoService/DemoService.csproj" />
+  <Project Path="FT.Observability/FT.Observability.csproj" />
+</Solution>

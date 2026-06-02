@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>FT.Observability</PackageId>
+		<Version>0.5.0</Version>
+		<Authors>Folketinget IT</Authors>
+		<Description>Shared observability package for configuring OpenTelemetry tracing and Serilog OTLP logging in Folketinget .NET services.</Description>
+		<PackageTags>observability;opentelemetry;tracing;logging;serilog;otlp;dotnet</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.15.3" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.3"/>
+		<PackageReference Include="Serilog.Sinks.OpenTelemetry" Version="4.1.0"/>
+	</ItemGroup>
+
+</Project>
